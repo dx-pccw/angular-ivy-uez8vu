@@ -1,4 +1,14 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+
+<table>
+  <tr>
+    <th *ngFor = "let column of headers">
+      {{column}}
+    </th>
+  </tr>
+
+  <tr *ngFor = "let row of rows">
+    <td *ngFor = "let column of headers">
+      {{row[column]}}
+    </td>
+  </tr>
+</table>
