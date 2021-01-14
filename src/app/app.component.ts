@@ -6,22 +6,20 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  headers = ["ID", "Name", "Age", "Gender", "Country"];
+  headers = ["Case ID", "Name", "Type", "Progress (%)"];
 
   rows = [
     {
-      "ID" : "1",
+      "Case ID" : "1",
       "Name" : "Rahul",
-      "Age" : "21",
-      "Gender" : "Male",
-      "Country" : "India"
+      "Type" : "Onboarding",
+      "Progress (%)" : "100"
     },
     {
-      "ID" : "2",
+      "Case ID" : "2",
       "Name" : "Ajay",
-      "Age" : "25",
-      "Gender" : "Male",
-      "Country" : "India"
+      "Type" : "Offboardong",
+      "Progress (%)" : "50",
     }
   ]
 }
