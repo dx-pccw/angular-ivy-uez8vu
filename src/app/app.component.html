@@ -1,15 +1,27 @@
 <app-top-bar></app-top-bar>
 
 <table>
-  <tr>
-    <th *ngFor = "let column of headers">
-      {{column}}
-    </th>
-  </tr>
+	<tr>
+		<th *ngFor="let column of headers">
+			{{column}}
+		</th>
+	</tr>
 
-  <tr *ngFor = "let row of rows">
-    <td *ngFor = "let column of headers">
-      {{row[column]}}
-    </td>
-  </tr>
+	<tr *ngFor="let row of rows">
+		<td *ngFor="let column of headers">
+			{{row[column]}}
+		</td>
+	</tr>
 </table>
+
+<br/>
+
+<button>
+    Delete
+</button>
+<button>
+    Edit
+</button>
+<button>
+    Forward
+</button>
