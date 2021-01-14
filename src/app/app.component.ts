@@ -5,6 +5,7 @@ import { Component, VERSION } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: [ './app.component.css' ]
 })
+
 export class AppComponent  {
   headers = ["Case ID", "Name", "Type", "Progress (%)"];
 
