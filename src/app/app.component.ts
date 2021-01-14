@@ -19,7 +19,7 @@ export class AppComponent  {
     {
       "Case ID" : "2",
       "Name" : "Ajay",
-      "Type" : "Offboardong",
+      "Type" : "Offboarding",
       "Progress (%)" : "50",
     }
   ]
